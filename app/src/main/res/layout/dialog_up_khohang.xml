@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:text="Nhập số lượng sách mới "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/edt_nhap_hang_moi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/back_edit_sach"
+        android:hint="Nhập vào số lượng sách mơi"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/btn_nhap_hang_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập hàng"
+        />
+
+</LinearLayout>

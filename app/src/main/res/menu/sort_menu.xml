@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sortByNameAZ"
+        android:title="Sắp xếp tên A-Z" />
+    <item
+        android:id="@+id/sortByNameZA"
+        android:title="Sắp xếp tên Z-A" />
+    <item
+        android:id="@+id/sortByPrice"
+        android:title="Sắp xếp theo giá" />
+</menu>

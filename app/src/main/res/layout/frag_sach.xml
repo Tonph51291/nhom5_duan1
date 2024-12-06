@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view_sach"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/back_search"
+        android:iconifiedByDefault="false"
+        android:queryHint="Tìm kiếm" />
+
+
+    <ImageButton
+        android:id="@+id/btn_pop_sach"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="28dp"
+        android:layout_toEndOf="@+id/search_view_sach"
+        android:background="@drawable/back_pop"
+        android:contentDescription="TODO"
+        android:src="@drawable/pop"
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_sach"
+        android:layout_width="475dp"
+        android:layout_height="519dp"
+
+        android:layout_below="@+id/search_view_sach"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_them_sach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="43dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/baseline_add_24" />
+
+</RelativeLayout>

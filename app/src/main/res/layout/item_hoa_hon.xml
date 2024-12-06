@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/back_edit_sach"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:id="@+id/txtMaHoaDonLS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hóa đơn" />
+
+        <TextView
+            android:id="@+id/txtTenKHLS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bui duy ton" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtNgayLS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="20/9/2092"
+                android:layout_weight="1"
+            />
+
+            <TextView
+                android:id="@+id/txtTongTienLS"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="800000"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

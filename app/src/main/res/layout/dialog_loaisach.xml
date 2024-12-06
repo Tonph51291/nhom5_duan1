@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <Button
+        android:id="@+id/btnLayAnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lấy ảnh"
+        />
+    <ImageView
+        android:id="@+id/imgPreview"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="TODO" />
+
+    <EditText
+        android:id="@+id/edtTenLoaiSach"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:hint="Tên loại sách" />
+    <Button
+        android:id="@+id/btnThemLoaiSach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        />
+
+</LinearLayout>
